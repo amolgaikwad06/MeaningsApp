@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		3C9E83971E5F3C6000B582C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E83961E5F3C6000B582C6 /* main.m */; };
 		3C9E839A1E5F3C6000B582C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E83991E5F3C6000B582C6 /* AppDelegate.m */; };
-		3C9E839D1E5F3C6000B582C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E839C1E5F3C6000B582C6 /* ViewController.m */; };
+		3C9E839D1E5F3C6000B582C6 /* MeaningsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E839C1E5F3C6000B582C6 /* MeaningsViewController.m */; };
 		3C9E83A01E5F3C6000B582C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9E839E1E5F3C6000B582C6 /* Main.storyboard */; };
 		3C9E83A21E5F3C6000B582C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9E83A11E5F3C6000B582C6 /* Assets.xcassets */; };
 		3C9E83A51E5F3C6000B582C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9E83A31E5F3C6000B582C6 /* LaunchScreen.storyboard */; };
+		3C9E83AE1E5F40AF00B582C6 /* DataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E83AD1E5F40AF00B582C6 /* DataProvider.m */; };
+		3CAB1ED31E5F816B007AEC8D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB1ED21E5F816B007AEC8D /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,16 @@
 		3C9E83961E5F3C6000B582C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3C9E83981E5F3C6000B582C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C9E83991E5F3C6000B582C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3C9E839B1E5F3C6000B582C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3C9E839C1E5F3C6000B582C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C9E839B1E5F3C6000B582C6 /* MeaningsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeaningsViewController.h; sourceTree = "<group>"; };
+		3C9E839C1E5F3C6000B582C6 /* MeaningsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeaningsViewController.m; sourceTree = "<group>"; };
 		3C9E839F1E5F3C6000B582C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C9E83A11E5F3C6000B582C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C9E83A41E5F3C6000B582C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C9E83A61E5F3C6000B582C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9E83AC1E5F40AF00B582C6 /* DataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataProvider.h; sourceTree = "<group>"; };
+		3C9E83AD1E5F40AF00B582C6 /* DataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataProvider.m; sourceTree = "<group>"; };
+		3CAB1ED11E5F816B007AEC8D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		3CAB1ED21E5F816B007AEC8D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,10 @@
 		3C9E83941E5F3C6000B582C6 /* MeaningsApp */ = {
 			isa = PBXGroup;
 			children = (
-				3C9E83981E5F3C6000B582C6 /* AppDelegate.h */,
-				3C9E83991E5F3C6000B582C6 /* AppDelegate.m */,
-				3C9E839B1E5F3C6000B582C6 /* ViewController.h */,
-				3C9E839C1E5F3C6000B582C6 /* ViewController.m */,
+				3CAB1ED71E5F87A2007AEC8D /* Model */,
+				3CAB1ED61E5F878D007AEC8D /* ViewControllers */,
+				3CAB1ED51E5F8779007AEC8D /* AppDelegate */,
+				3CAB1ED41E5F8764007AEC8D /* MBProgressHUD */,
 				3C9E839E1E5F3C6000B582C6 /* Main.storyboard */,
 				3C9E83A11E5F3C6000B582C6 /* Assets.xcassets */,
 				3C9E83A31E5F3C6000B582C6 /* LaunchScreen.storyboard */,
@@ -77,6 +83,42 @@
 				3C9E83961E5F3C6000B582C6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CAB1ED41E5F8764007AEC8D /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3CAB1ED11E5F816B007AEC8D /* MBProgressHUD.h */,
+				3CAB1ED21E5F816B007AEC8D /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		3CAB1ED51E5F8779007AEC8D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3C9E83981E5F3C6000B582C6 /* AppDelegate.h */,
+				3C9E83991E5F3C6000B582C6 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3CAB1ED61E5F878D007AEC8D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C9E839B1E5F3C6000B582C6 /* MeaningsViewController.h */,
+				3C9E839C1E5F3C6000B582C6 /* MeaningsViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3CAB1ED71E5F87A2007AEC8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C9E83AC1E5F40AF00B582C6 /* DataProvider.h */,
+				3C9E83AD1E5F40AF00B582C6 /* DataProvider.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +192,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C9E839D1E5F3C6000B582C6 /* ViewController.m in Sources */,
+				3C9E839D1E5F3C6000B582C6 /* MeaningsViewController.m in Sources */,
 				3C9E839A1E5F3C6000B582C6 /* AppDelegate.m in Sources */,
+				3CAB1ED31E5F816B007AEC8D /* MBProgressHUD.m in Sources */,
+				3C9E83AE1E5F40AF00B582C6 /* DataProvider.m in Sources */,
 				3C9E83971E5F3C6000B582C6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +351,7 @@
 				3C9E83AB1E5F3C6000B582C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
