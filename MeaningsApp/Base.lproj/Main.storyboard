@@ -35,7 +35,7 @@
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="t7p-VA-KE4">
-                                <rect key="frame" x="0.0" y="142" width="375" height="525"/>
+                                <rect key="frame" x="0.0" y="118" width="375" height="549"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="a8o-Ks-EaD" style="IBUITableViewCellStyleDefault" id="hT8-5N-FfY">
@@ -62,7 +62,7 @@
                         <constraints>
                             <constraint firstItem="ZX5-A1-KCs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="BIb-7U-Ge8"/>
                             <constraint firstItem="t7p-VA-KE4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ioo-Qu-UDF"/>
-                            <constraint firstItem="t7p-VA-KE4" firstAttribute="top" secondItem="p7H-fy-Hvh" secondAttribute="bottom" constant="32" id="KRX-nr-7iV"/>
+                            <constraint firstItem="t7p-VA-KE4" firstAttribute="top" secondItem="p7H-fy-Hvh" secondAttribute="bottom" constant="8" id="KRX-nr-7iV"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="t7p-VA-KE4" secondAttribute="bottom" id="OII-2r-x4M"/>
                             <constraint firstAttribute="trailing" secondItem="t7p-VA-KE4" secondAttribute="trailing" id="Y2H-V1-pmD"/>
                             <constraint firstItem="p7H-fy-Hvh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="dKT-Aa-VqU"/>

@@ -26,7 +26,7 @@
         
         if (error != nil) {
             // If any error occurs then just display its description on the console.
-            NSLog(@"%@", [error localizedDescription]);
+            NSLog(@"Error : %@", [error localizedDescription]);
         }
         else{
             // Call the completion handler with the returned data on the main thread.

@@ -96,18 +96,17 @@
                     // Reload the table view.
                     [self.meaningsTableView reloadData];
                     
-                    
+                    _inputTextField.text = @"";
                     
                     // Show the table view.
                     self.meaningsTableView.hidden = NO;
                 }
             }
+            //[hud hideAnimated:YES];
         }
-        
+        [hud hideAnimated:YES];
         
     }];
-    
-    [hud hideAnimated:YES];
 }
 
 #pragma mark - UITextField method implementation
